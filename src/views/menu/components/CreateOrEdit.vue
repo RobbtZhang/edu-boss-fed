@@ -65,11 +65,11 @@ export default Vue.extend({
     return {
       form: {
         parentId: -1,
-        name: '100',
-        href: '100',
-        icon: '100',
+        name: '',
+        href: '',
+        icon: '',
         orderNum: 0,
-        description: '123',
+        description: '',
         shown: false
       },
       parentMenuList: [],
