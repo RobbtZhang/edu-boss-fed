@@ -5,7 +5,7 @@ module.exports = {
         prependData: '@import "~@/styles/variables.scss";'
       }
     }
-  },
+  }
   // devServer: {
   //   proxy: {
   //     '/boss': {
