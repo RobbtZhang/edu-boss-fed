@@ -1,7 +1,6 @@
 <template>
-  <div id="app">
-    <!-- 根路由出口 -->
-    <router-view/>
+  <div class="home">
+    home
   </div>
 </template>
 
@@ -9,8 +8,9 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'App'
+  name: 'HomeIndex'
 })
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>
