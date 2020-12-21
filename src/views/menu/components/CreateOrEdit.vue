@@ -66,7 +66,7 @@ export default Vue.extend({
       form: {
         parentId: -1,
         name: '200200',
-        href: '100100',
+        href: '2',
         icon: '100100',
         orderNum: 0,
         description: '123',
