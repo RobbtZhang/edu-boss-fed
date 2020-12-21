@@ -1,6 +1,7 @@
 FROM nginx
+WORKDIR /root
 LABEL name="edu"
 LABEL version="1.0"
-COPY ./dist /usr/share/nginx/html
-COPY ./vue-edu.conf /etc/nginx/conf.d
+ADD ./dist /usr/share/nginx/html
+ADD ./conf.d /etc/nginx/conf.d
 EXPOSE 80
